@@ -7,6 +7,195 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+---
+
+# 🍽️ Meals-On-Wheels
+
+Meals-On-Wheels is a web application built using the **Laravel Framework**. This platform enables seamless food delivery services, offering various user roles, real-time order management, and secure payment processing. Designed to empower communities, it provides a streamlined experience for all stakeholders.
+
+---
+
+## 🎯 Goals
+
+The **Meals-On-Wheels** system is designed to:
+- Improve the efficiency of meal ordering and delivery for needy individuals.
+- Ensure that food service providers adhere to safety and quality standards.
+- Enable users to have a better, more personalized experience with meal choice flexibility.
+- Provide a streamlined method for managing both members and food service partners.
+
+---
+
+## 📋 Roles & Features
+
+- **User Roles**:  
+  - **Member**: Regular users who place orders.  
+  - **Caregiver**: Assists in managing orders for members.  
+  - **Partner**: Collaborates to provide services or meals.  
+  - **Rider**: Delivers meals to users.  
+  - **Donor/Supporter**: Contributes donations to support the platform.  
+  - **Admin**: Manages all aspects of the application.  
+  - **Volunteer**: Assists in community services via the platform.
+
+- **Features**: 
+  - **User Authentication**: Registration, login, and secure password management.
+  - **Order Management**: Create, update, and track orders in real-time.
+  - **Payment Integration**: PayPal gateway for secure transactions.
+  - **Admin Panel**: Efficiently manage meals, orders, and user roles.
+  - **Responsive Design**: Optimized for both desktop and mobile experiences.
+  - **Multi-language Support**: Localization-ready for diverse audiences.
+
+---
+
+## 🛠️ Technologies Used
+- **Framework**: Laravel 10
+- **Programming Language**: PHP 8.1
+- **Database**: MySQL, PHPMyAdmin
+- **Frontend**: Blade Templates, HTML, CSS, JavaScript
+- **Version Control**: Git and GitHub
+- **Payment Gateway**: PayPal
+- **Additional Tools**: Composer, Artisan CLI, NPM/Vite
+
+---
+
+## 🚀 Installation Guide
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/RudranshPanchal/Meals-On-Wheels.git
+   cd Meals-On-Wheels
+   
+2. Install dependencies:
+
+    ```bash
+    composer install
+    npm install && npm run dev
+    
+3. Set up the environment:
+
+    .env.example to .env:
+   **Update the .env file with your database, mail, and PayPal API configurations.**
+
+    ```bash
+    cp .env.example .env
+
+   
+5. Generate application key:
+
+    ```bash
+    php artisan key:generate
+    Run database migrations:
+    
+6. Run database migrations:
+    ```bash   
+    php artisan migrate
+    
+7. Start the development server:
+
+    ```bash
+    php artisan serve
+    
+8. Open the application in your browser:
+
+    ```arduino
+    http://localhost:8000
+
+---
+    
+## 📂 Project Structure
+- Routes: Defined in the routes/ directory.
+- Controllers: Located in app/Http/Controllers/.
+- Views: Blade templates are in resources/views/.
+- Assets: CSS and JS files are in public/ and resources/.**
+
+
+---
+
+# 📸 Screenshots
+
+**Home**
+
+![image](https://github.com/user-attachments/assets/3090735f-d9f3-4b0a-b449-53bcaf85e9a0)
+
+
+**About Us**
+
+![image](https://github.com/user-attachments/assets/0ccac4c2-3137-492c-8e57-17d343fc3b35)
+
+ 
+**Contact Us**
+
+![image](https://github.com/user-attachments/assets/f4e41b02-4d30-4306-aaf8-c014787dda3c)
+
+
+**Register**
+
+![image](https://github.com/user-attachments/assets/9e13f3fd-a321-46a4-9d9c-0790c8194811)
+
+
+**Login** 
+
+![image](https://github.com/user-attachments/assets/d84ddf10-962a-47e0-a352-06fe228fb6e5)
+
+
+**Partner Dashboard**
+
+![image](https://github.com/user-attachments/assets/48cb8610-953b-4bcf-8de7-271153912f45)
+
+
+**Partner Create Menu**
+
+![image](https://github.com/user-attachments/assets/a526ed27-5577-4031-8170-c9031548ce34)
+
+
+## 🧑 For Members  
+
+**Member Dashboard**
+
+![image](https://github.com/user-attachments/assets/11df64d9-4522-45e9-a536-907845acfbcf)
+
+
+**Meal Details**  
+
+![image](https://github.com/user-attachments/assets/1ae08bbb-47fa-4b15-aca4-a3cb251ce6a3)
+
+
+**Place order**  
+
+![image](https://github.com/user-attachments/assets/6bc83a23-988a-41cd-bbeb-0648c4118814)
+
+
+**Order Place successful** 
+
+![image](https://github.com/user-attachments/assets/d1d27c93-9608-48e4-93d1-84524311ddc4)
+
+
+## 🧔 For Volunteers  
+
+
+**Volunteer Dashboard**
+
+![image](https://github.com/user-attachments/assets/211f0619-67da-43f1-bd3a-f036db55a0d2)
+
+
+**Volunteer Track Order**  
+
+![image](https://github.com/user-attachments/assets/3a4e5ff6-7291-4146-97a2-31c0b7e17611)
+
+
+**Donor Payment Box**
+
+![image](https://github.com/user-attachments/assets/8620ea15-1170-4aa5-8db1-b64ea802933f)
+
+ 
+
+**Payment Gateway**
+
+ ![image](https://github.com/user-attachments/assets/3aaa83ee-ad90-4462-93c5-e3d62b37bc47)
+
+
+
+
+---
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
